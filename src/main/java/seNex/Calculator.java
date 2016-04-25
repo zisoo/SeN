@@ -10,7 +10,9 @@ public class Calculator {
 	public void sub(int x, int y) {
 		result = x-y;
 	}
-	
+	public void mul(int x, int y) {
+		result = x*y;
+	}
 	public int getResult() {
 		return result;
 	}
